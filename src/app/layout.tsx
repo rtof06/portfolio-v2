@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className="bg-primary-color text-font-color">
+      <body className="bg-primary-color text-font-color text-center">
         {children}
         <Footer />
       </body>
