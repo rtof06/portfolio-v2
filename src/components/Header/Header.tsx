@@ -3,10 +3,8 @@ import folderIcon from "../../public/img/folder.png";
 import houseIcon from "../../public/img/home-page-white-icon.png";
 import paperIcon from "../../public/img/paper.png";
 import Link from "next/link";
-import { Pixelify_Sans } from "next/font/google";
 import Item from "./Item/Item";
 const krona = Krona_One({ subsets: ["latin"], weight: ["400"] });
-const pixely = Pixelify_Sans({ subsets: ["cyrillic"], weight: ["400"] });
 
 type HeaderProps = {
   title?: string;
@@ -15,8 +13,8 @@ type HeaderProps = {
 export default function Header({ title }: HeaderProps) {
   return (
     <header className="header text-center">
-      <nav className="navbar flex justify-center">
-        <ul>
+      <nav>
+        <ul className="navbar flex justify-center items-center">
           <li>
             <Link href="/">
               <Item
@@ -38,7 +36,7 @@ export default function Header({ title }: HeaderProps) {
             </Link>
           </li>
           <li>
-            <Link href="/curriculum">
+            <Link href="/curriculo">
               <Item
                 icon={paperIcon}
                 alt="Ícone de papel"
@@ -49,7 +47,7 @@ export default function Header({ title }: HeaderProps) {
           </li>
         </ul>
       </nav>
-      <h1 className={`${krona.className} text-4xl max-w-full break-words`}>
+      <h1 className={`${krona.className} text-3xl max-w-full break-words`}>
         {title}
       </h1>
     </header>

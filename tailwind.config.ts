@@ -9,10 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'primary-color': '#000C2B',
-        'font-color': '#FFF'
+        'primary-color': '#040430',
+        'font-color': '#FFF',
+        'hover-color': '#09509A',
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 10s linear infinite'
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
       },
     },
   },
 }
-  export default config;
+export default config;
