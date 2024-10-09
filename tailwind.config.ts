@@ -14,7 +14,7 @@ const config: Config = {
         'hover-color': '#09509A',
       },
       animation: {
-        'infinite-scroll': 'infinite-scroll 10s linear infinite'
+        'infinite-scroll': 'infinite-scroll 15s linear infinite'
       },
       keyframes: {
         'infinite-scroll': {

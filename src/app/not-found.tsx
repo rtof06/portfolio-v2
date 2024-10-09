@@ -9,7 +9,7 @@ export default function notFound() {
       <Header title="Erro 404! Aparentemente essa página ainda não existe..."/>
       <div className="container flex flex-col items-center">
          <Image src={GIFLupa} alt="GIF de uma lupa" className="pt-6"/>
-         <Link href="/" className="py-12 text-lg"><p>Volte para a página inicial aqui!</p></Link>
+         <Link href="/" className="text-lg hover:opacity-75"><p>Volte para a página inicial aqui!</p></Link>
       </div>
     </>
   );

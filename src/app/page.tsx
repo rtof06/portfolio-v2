@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Header title="Olá! Bem-vindo ao meu portfólio" />
-      <div className="container mx-auto max-w-screen-lg">
+      <section className="container m-auto max-w-screen-lg">
         <div className="profile flex flex-col items-center text-center my-10">
           <Image
             src={profilePicture}
@@ -21,7 +21,7 @@ export default function Home() {
           <p className={`${pixely.className}`}>Desenvolvedor Web</p>
         </div>
         <Skills />
-      </div>
+      </section>
     </>
   );
 }
