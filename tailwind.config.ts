@@ -12,6 +12,7 @@ const config: Config = {
         'primary-color': '#040430',
         'font-color': '#FFF',
         'hover-color': '#09509A',
+        'sec-color': '#003060'
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 15s linear infinite'
