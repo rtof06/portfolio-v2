@@ -8,6 +8,7 @@ import casamento2 from "../../public/img/projectsImg/casamentoLigiaMarcos/casame
 import casamento3 from "../../public/img/projectsImg/casamentoLigiaMarcos/casamento-confirmacao.png";
 import portfolio1 from "../../public/img/projectsImg/portfolio/portfolio1.png";
 import portfolio2 from "../../public/img/projectsImg/portfolio/portfolio2.png";
+import portfolio3 from "../../public/img/projectsImg/portfolio/portfolio3.png";
 
 export default function Projects() {
   return (
@@ -39,13 +40,13 @@ export default function Projects() {
       />
       <Project
         firstImage={portfolio1}
-        altFirstImage="Foto do menu do site do casamento"
+        altFirstImage="Foto do menu do portfolio"
         secImage={portfolio2}
-        altSecImage="Print da TimeLine de história do casal"
-        thirdImage={casamento3}
-        altThirdImage="Print da página de confirmação de presença"
-        title="Site de casamento"
-        urlDemo="#"
+        altSecImage="Print da pagina de projetos"
+        thirdImage={portfolio3}
+        altThirdImage="Sobre mim do portfolio"
+        title="Portfólio"
+        urlDemo="/"
         urlRepo="https://github.com/rtof06/portfolio-v2"
       />
       </section>
