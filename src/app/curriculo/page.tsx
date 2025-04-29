@@ -28,12 +28,6 @@ export default function Curriculo() {
           <Image src={print} alt="print do curriculo" className="w-1/2"/>
         </a>
         <p>Currículo atualizado em 2025</p>
-        {/* <div className="contatos">
-          <p>Contato: <a href="mailto:ricardoofilho06@gmail.com" target="_blank" rel="noopener noreferrer" >email</a></p>
-          <p>LinkedIn: [Seu LinkedIn]</p>
-          <p>GitHub: [Seu GitHub]</p>
-          <p>Telefone: +55 (11) 97501-1013</p>
-        </div> */}
       </section>
     </div>
   );

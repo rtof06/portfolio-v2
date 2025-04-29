@@ -42,11 +42,11 @@ export default function Projects() {
         firstImage={portfolio1}
         altFirstImage="Foto do menu do portfolio"
         secImage={portfolio2}
-        altSecImage="Print da pagina de projetos"
+        altSecImage="Print da TimeLine de história do casal"
         thirdImage={portfolio3}
-        altThirdImage="Sobre mim do portfolio"
-        title="Portfólio"
-        urlDemo="/"
+        altThirdImage="Print da página de confirmação de presença"
+        title="Portfolio"
+        urlDemo="#"
         urlRepo="https://github.com/rtof06/portfolio-v2"
       />
       </section>
