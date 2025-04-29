@@ -39,12 +39,12 @@ export default function Projects() {
       />
       <Project
         firstImage={portfolio1}
-        altFirstImage="Foto do menu do site do casamento"
+        altFirstImage="Foto do menu do portfolio"
         secImage={portfolio2}
-        altSecImage="Print da TimeLine de história do casal"
+        altSecImage="Print da pagina de projetos do portfolio"
         thirdImage={casamento3}
         altThirdImage="Print da página de confirmação de presença"
-        title="Site de casamento"
+        title="Portfólio"
         urlDemo="#"
         urlRepo="https://github.com/rtof06/portfolio-v2"
       />
